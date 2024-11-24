@@ -391,7 +391,7 @@ if(RMLUI_FONT_ENGINE STREQUAL "freetype")
 
 	# RMLUI_CMAKE_MINIMUM_VERSION_RAISE_NOTICE:
 	# From CMake 3.13 the next line can be moved into `FontEngineDefault/CMakeLists.txt`, see CMP0079.
-	target_link_libraries(rmlui_core PRIVATE Freetype::Freetype)
+	target_link_libraries(rmlui_core PRIVATE freetype)
 endif()
 
 if(RMLUI_LOTTIE_PLUGIN)
